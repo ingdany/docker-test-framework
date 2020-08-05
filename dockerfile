@@ -8,7 +8,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update
 #RUN apt-cache search python3.8
 RUN apt install -y python3.8
-RUN apt-get install -y python3-pip
+RUN apt-get install -y pytafrhon3-pip
 RUN pip3 install selenium
 # Install Chromedriver
 RUN apt-get install -yqq unzip
