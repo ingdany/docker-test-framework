@@ -5,7 +5,7 @@
 `$ docker run -it test-framework`
 
 # Execute command in a running container
-`$ docker exec -it container bash -c "cd path;python3 test.py"`
+`$ docker exec -it container bash -c "cd /path;python3 test.py"`
 
 # copy files from docker machine to your host
-`$ docker cp container:/src/python/selenium/google-test/test.png /c/src/docker`
+`$ docker cp container:/path/test.png /c/src/docker`
